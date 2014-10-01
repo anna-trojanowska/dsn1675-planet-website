@@ -41,6 +41,11 @@ img {
     overflow: hidden;
 }
 
+.intro {
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
 .nav {
     margin: 0;
     padding: 0;
