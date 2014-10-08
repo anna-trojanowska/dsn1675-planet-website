@@ -46,9 +46,15 @@ img {
     text-align: center;
 }
 
+.characteristics {
+    background-color: #e2e2e2;
+}
+
+.pictures {
+    background-color: #efefef;
+}
+
 .nav {
-    margin: 0;
-    padding: 0;
     list-style: none;
 }
 
@@ -58,7 +64,6 @@ img {
 
 .nav a {
     display: block;
-    padding: 0;
     text-decoration: none;
     color: #0074D9;
 }
@@ -83,7 +88,6 @@ img {
     
     .nav {
         float: left;
-        padding: 1em 0 1em 0;
     }
     
 }
