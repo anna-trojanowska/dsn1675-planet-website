@@ -16,6 +16,27 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+     html {
+         font-size: 110%;
+     }
+    
+}
+
+@media only screen and (min-width: 90em) {
+     html {
+         font-size: 120%;
+     }
+    
+}
+
+@media only screen and (min-width: 120em) {
+     html {
+         font-size: 130%;
+     }
+    
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -50,6 +71,10 @@ img {
     background-color: #e2e2e2;
 }
 
+.discovery {
+    background-color: #e2e2e2;
+}
+
 .pictures {
     background-color: #efefef;
 }
@@ -68,7 +93,7 @@ img {
     color: #0074D9;
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 25em) {
     
     .nav li {
         display: inline-block;
@@ -80,7 +105,7 @@ img {
     
 }
     
-@media only screen and (min-width: 40em) { 
+@media only screen and (min-width: 38em) { 
     
     .header {
         float: left;
@@ -88,6 +113,33 @@ img {
     
     .nav {
         float: left;
+    }
+    
+     .footer {
+        float: right;
+    }
+    
+}
+
+@media only screen and (min-width: 60em) { 
+    
+    .data dt {
+        float: left;
+        width: 16em;
+        clear: left;
+    }
+    
+    .data dd {
+        float: left;
+    }
+    
+    .info {
+        padding-left: 1.5rem;
+    }
+    
+    .discovery-text {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
     
 }
