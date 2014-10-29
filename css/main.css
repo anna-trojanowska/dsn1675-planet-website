@@ -68,12 +68,11 @@ a:focus {
 
 .skip-links a {
     position: absolute;
-    top: -3em;
+    top: -10em;
     background-color: #000;
-    color: #fff;
-    padding: 0.5em 075em;
+    color: red;
+    padding: 1em;
     font-weight: bold;
-    text-align: none;
 }
 
 .skip-links a:focus {
@@ -115,6 +114,47 @@ a:focus {
     text-decoration: none;
     color: #0074D9;
 }
+
+.subhead {
+    text-align: center;
+}
+
+.formbox {
+    background-color: #e2e2e2;
+}
+
+label{
+    text-align: left;
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+textarea {
+    width: 100%;
+    height: 20em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 1.125em;
+    font-family: serif;
+    background-color: white;
+    padding: 0.5em;
+    text-align: left;
+}
+
+button {
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
 
 @media only screen and (min-width: 25em) {
     
