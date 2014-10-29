@@ -115,6 +115,10 @@ a:focus {
     color: #0074D9;
 }
 
+.radio {
+    white-space: nowrap;
+}
+
 .subhead {
     text-align: center;
 }
@@ -135,12 +139,14 @@ input + label {
 textarea {
     width: 100%;
     height: 20em;
+    border: 1px solid #ccc;
+    border-radius: 3px;   
 }
 
 input[type="text"],
 input[type="email"],
 input[type="number"] {
-    border: none;
+    border: 1px solid #ccc;
     width: 100%;
     border-radius: 3px;
     font-size: 1.125em;
