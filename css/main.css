@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -80,12 +79,12 @@ a:focus {
 }
 
 .masthead {
-    background-color: #ccc;
+    background-color: #778899;
     overflow: hidden;
 }
 
 .intro {
-    background-color: #e2e2e2;
+    background-color: #FFA07A;
     text-align: center;
 }
 
@@ -109,10 +108,22 @@ a:focus {
     margin: 0;
 }
 
-.nav a {
+.nav a,
+.nav a:link,
+.nav a:visited {
     display: block;
+    color: white;
     text-decoration: none;
-    color: #0074D9;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #87CEEB;
+    color: #fff;
 }
 
 .radio {
